@@ -10,12 +10,15 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "babel-core": "^6.22.1",
+    "babel-preset-env": "^1.1.8",
     "ejs": "2.4.1",
-    "express": "4.13.3"
+    "express": "4.13.3",
+    "node-sass": "^4.5.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/hkkhchan/heroku-nj"
   },
   "keywords": [
     "node",
