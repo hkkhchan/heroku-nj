@@ -1,0 +1,51 @@
+#main {
+  font-family: 'Freckle Face', cursive;
+  font-weight: bold;
+  color: #6e64f9; }
+
+.message, .topic {
+  display: inline-block; }
+
+.topic {
+  font-size: 70px; }
+
+.message {
+  font-size: 40px;
+  animation-duration: 2s;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out; }
+
+@-webkit-keyframes blink {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+@keyframes blink {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+.topic-wrapper, .start-wrapper, .option-wrapper {
+  display: inline-block;
+  width: 98%;
+  text-align: center; }
+
+.topic-wrapper {
+  padding: 25vh 1%; }
+
+.start-wrapper {
+  padding: 10vh 1%; }
+
+.option-wrapper {
+  padding: 0 1%; }
+
+.option-wrapper div {
+  font-size: 30px;
+  margin: 10px 0; }
+
+.selected {
+  color: #e83f7c; }
